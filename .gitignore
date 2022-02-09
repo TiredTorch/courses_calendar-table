@@ -1,0 +1,12 @@
+.idea
+node_modules
+.DS_Store
+yarn.lock
+package-lock.json
+dist
+.eslintrc.js
+.eslintignore
+.editorconfig
+.stylelintignore
+.stylelintrc.js
+babel.config.js
