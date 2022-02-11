@@ -44,7 +44,7 @@ const fillCalendar = (root, positionOfFirstDayInTheWeek, amountOfDays) => {
     for (let indexCell = 0; indexCell < DAYS_IN_THE_WEEK; indexCell++) {
       const newCell = document.createElement('td');
       
-      if (cursor > positionOfFirstDayInTheWeek && tempDay < amountOfDays + 1){
+      if (cursor > positionOfFirstDayInTheWeek - 1 && tempDay < amountOfDays + 1){
         newCell.innerHTML = tempDay;
         tempDay++;
       }
@@ -58,4 +58,4 @@ const fillCalendar = (root, positionOfFirstDayInTheWeek, amountOfDays) => {
   }
 };
 
-calendarTable(2019, 10, calendar);
+calendarTable(2022, 2, calendar);
